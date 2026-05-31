@@ -8,7 +8,7 @@ This repository includes data preprocessing, temporal sequence alignment, and tr
 
 For the fastest evaluation experience, run the benchmark in Google Colab with zero local setup.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/00000281892/HCT-Microbiome-Benchmark/blob/main/notebooks/HCT_Microbiome_Benchmark.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/notebooks/HCT_Microbiome_Benchmark.ipynb)
 
 ## What’s included
 
@@ -28,7 +28,7 @@ For the fastest evaluation experience, run the benchmark in Google Colab with ze
 ### Option A: Python `venv`
 
 ```bash
-git clone https://github.com/00000281892/HCT-Microbiome-Benchmark.git
+git clone https://github.com/mlresearcher81/HCT-Microbiome-Benchmark.git
 cd HCT-Microbiome-Benchmark
 python -m venv hct_env
 ```
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### Option B: `conda`
 
 ```bash
-git clone https://github.com/00000281892/HCT-Microbiome-Benchmark.git
+git clone https://github.com/mlresearcher81/HCT-Microbiome-Benchmark.git
 cd HCT-Microbiome-Benchmark
 conda create -n hct_env python=3.10 -y
 conda activate hct_env
