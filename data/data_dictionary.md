@@ -9,7 +9,7 @@ The dataset is initially formatted in a "long" observational structure, which is
 ## 1. Dataset Provenance & Curation Methodology
 
 **Original Data Source:**
-The raw 16S rRNA gene sequencing data and corresponding clinical hospitalome metadata utilized to construct this benchmark were derived from a publicly available, multi-center allogeneic hematopoietic cell transplantation (HCT) cohort.
+The raw 16S rRNA gene sequencing data and corresponding clinical hospitalome metadata utilized to construct this benchmark were derived from the publicly available, multi-center allogeneic hematopoietic cell transplantation (HCT) cohort published by Liao et al. (2021).
 
 **Curation and Preprocessing Steps:**
 To transform the sporadic observational archive into the strictly formatted temporal benchmark provided in this repository, the following curation pipeline was programmatically applied:
