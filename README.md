@@ -6,9 +6,14 @@ This repository includes data preprocessing, temporal sequence alignment, and tr
 
 ## Quickstart
 
-For the fastest evaluation experience, run the benchmark in Google Colab with zero local setup.
+Run the pipeline directly in Google Colab with zero local setup. You can either generate the dataset from the raw files or jump straight into the benchmark evaluation.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/notebooks/HCT_Microbiome_Benchmark.ipynb)
+**1. Generate the Dataset:**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/data-preprocessing/dataset_generation.ipynb)
+
+**2. Run Benchmark Evaluation:**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/notebook/benchmark_evaluation.ipynb)
+
 
 ## What’s Included
 
