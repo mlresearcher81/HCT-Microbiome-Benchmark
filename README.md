@@ -85,10 +85,13 @@ In the browser:
 ```text
 HCT-Microbiome-Benchmark/
 ├── data/
+│   ├── raw/
 │   ├── HCT_Microbiome_Benchmark.csv
-│   └── data_dictionary.md
-├── notebooks/
-│   └── HCT_Microbiome_Benchmark.ipynb
+│   └── Data Dictionary.md
+├── data-preprocessing/
+│   └── dataset_generation.ipynb
+├── notebook/
+│   └── benchmark_evaluation.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -105,5 +108,4 @@ The `data/` directory contains the benchmark dataset and a feature dictionary de
 
 ## License
 
-This code and dataset are provided securely and anonymously for the sole purpose of double-blind peer review for IEEE ICDM 2026.
-
+This code and dataset are provided in support of the accepted camera-ready manuscript for the IEEE International Conference on Knowledge Graph (ICKG) 2026.
