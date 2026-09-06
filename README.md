@@ -10,7 +10,6 @@ Run the pipeline directly in Google Colab with zero local setup. You can either 
 
 **1. Generate the Dataset:**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/data-preprocessing/HCT_Clinical_Microbiome_Integration.ipynb)
-
 **2. Run Benchmark Evaluation:**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/notebook/HCT_Microbiome_Benchmark.ipynb)
 
