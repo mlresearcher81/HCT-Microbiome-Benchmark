@@ -10,12 +10,20 @@ For the fastest evaluation experience, run the benchmark in Google Colab with ze
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/notebooks/HCT_Microbiome_Benchmark.ipynb)
 
-## What’s included
+## What’s Included
 
-- `data/HCT_Microbiome_Benchmark.csv`: anonymized sample dataset
-- `data/data_dictionary.md`: clinical and taxonomic feature descriptions
-- `notebooks/HCT_Microbiome_Benchmark.ipynb`: end-to-end executable pipeline
-- `requirements.txt`: dependency list for local execution
+- **`data/raw/`**: Contains the original source CSV files required to build the benchmark:
+  - `tblASVsamples.csv`
+  - `tblASVtaxonomy_silva132_v4v5_filter.csv`
+  - `tblcounts_asv_melt.csv`
+  - `tblhctmeta.csv`
+  - `tbltemperature.csv`
+  - `tblwbc.csv`
+- **`data/HCT_Microbiome_Benchmark.csv`**: The final, temporally aligned feature matrix ready for machine learning.
+- **`data/Data Dictionary.md`**: Outlines the schema, provenance, and definitions for the clinical and taxonomic features.
+- **`data-preprocessing/HCT_Clinical_Microbiome_Integration.ipynb`**: The Python notebook containing the exact scripts used to merge the raw data, forward-fill clinical variables, and zero-fill missing taxonomic observations.
+- **`notebook/HCT_Microbiome_Benchmark.ipynb`**: The end-to-end executable pipeline for model training and evaluation.
+- **`requirements.txt`**: Dependency list for local execution.
 
 ## Requirements
 
