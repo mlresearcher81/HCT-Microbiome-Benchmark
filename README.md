@@ -93,13 +93,13 @@ In the browser:
 ```text
 HCT-Microbiome-Benchmark/
 ├── data/
-│   ├── raw/
+│   ├── raw/csv files
 │   ├── HCT_Microbiome_Benchmark.csv
 │   └── Data Dictionary.md
 ├── data-preprocessing/
-│   └── dataset_generation.ipynb
+│   └── HCT_Clinical_Microbiome_Integration.ipynb
 ├── notebook/
-│   └── benchmark_evaluation.ipynb
+│   └── HCT_Microbiome_Benchmark.ipynb
 ├── requirements.txt
 └── README.md
 ```
