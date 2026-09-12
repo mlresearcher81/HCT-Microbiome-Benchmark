@@ -2,17 +2,17 @@
 
 A reproducible pipeline for longitudinal gut microbiome surveillance and early dysbiosis forecasting after hematopoietic cell transplantation (HCT).
 
-This repository includes data preprocessing, temporal sequence alignment, and training/evaluation code for an auto-regressive Bi-LSTM model plus static baseline models (XGBoost, Random Forest, Logistic Regression).
+This repository includes data preprocessing, temporal sequence alignment, and training/evaluation code for an autoregressive Bi-LSTM model plus static baseline models (XGBoost, Random Forest, Logistic Regression).
 
 ## Quickstart
 
 Run the pipeline directly in Google Colab with zero local setup. You can either generate the dataset from the raw files or jump straight into the benchmark evaluation.
 
-**1. Generate the Dataset:**
+**1. Generate the Benchmark Dataset:**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/data_preprocessing/HCT_Clinical_Microbiome_Integration.ipynb)
 
-**2. Run Benchmark Evaluation:**
+**2. Run Benchmark Evaluation Models:**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlresearcher81/HCT-Microbiome-Benchmark/blob/main/notebooks/HCT_Microbiome_Benchmark.ipynb)
 
